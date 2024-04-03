@@ -25,7 +25,6 @@ pub fn to_base64(path: &str) -> String {
     let _ = file.read_to_end(&mut vec);
     let base64 = vec.to_base64(MIME);
     let hex = vec.to_hex();
-    println!("{}",base64.replace("\r\n", ""));
     return format!("data:image/{};base64,{}", get_file_type(&hex), base64.replace("\r\n", ""));
 }
 
