@@ -1,5 +1,6 @@
-#image-base64-rs
+# image-base64-rs
 
+```html
 <p align="left">
     <a href="https://crates.io/crates/image-base64">
         <img src="https://img.shields.io/crates/v/image-base64.svg"
@@ -9,14 +10,14 @@
         <img src="https://travis-ci.org/katsumeshi/image-base64-rs.svg?branch=master"
              alt="travis">
     </a>
-    
-    
 </p>
+```
+
 Convert image to base64, and vise versa
 
 ## Code Example
 
-```
+```rust
 extern crate image_base64;
 
 fn main() {

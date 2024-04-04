@@ -1,0 +1,16 @@
+jupyter nbconvert --to html ipynb_to_pdf.ipynb 
+jupyter nbconvert --to pdf ipynb_to_pdf.ipynb 
+sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
+jupyter nbconvert --to pdf init.ipynb
+jupyter nbconvert --to pdf _ipynb_to_pdf.ipynb
+jupyter nbconvert --to pdf ipynb_to_pdf.ipynb
+jupyter nbconvert --to pdf ../image-base64-rs/src/image_base64_inline.ipynb 
+jupyter nbconvert --to html ../image-base64-rs/src/image_base64_inline.ipynb 
+jupyter nbconvert --to pdf ../image-base64-rs/src/image_base64_inline.ipynb 
+pip show nbconvert
+jupyter nbconvert --to latex ../image-base64-rs/src/image_base64_inline.ipynb 
+python --version
+
+sudo apt-get remove --purge  texlive-xetex texlive-fonts-recommended texlive-plain-generic
+apt-get --yes autoclean  \ 
+sudo -i
