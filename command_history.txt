@@ -14,3 +14,9 @@ python --version
 sudo apt-get remove --purge  texlive-xetex texlive-fonts-recommended texlive-plain-generic
 apt-get --yes autoclean  \ 
 sudo -i
+
+apt install python
+sudo -i
+pip install nbconvert
+sudo pip install nbconvert
+
